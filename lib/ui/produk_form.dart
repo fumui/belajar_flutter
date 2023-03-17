@@ -48,7 +48,7 @@ class _ProdukFormState extends State<ProdukForm> {
 
   TextField _textboxHarga() => TextField(
       decoration: const InputDecoration(labelText: "Harga"),
-      controller: _kodeProdukTextboxController);
+      controller: _hargaProdukTextboxController);
 
   TextField _textboxNamaProduk() => TextField(
       decoration: InputDecoration(labelText: "Nama Produk"),
@@ -56,5 +56,5 @@ class _ProdukFormState extends State<ProdukForm> {
 
   TextField _textboxKodeProduk() => TextField(
       decoration: const InputDecoration(labelText: "Kode Produk"),
-      controller: _hargaProdukTextboxController);
+      controller: _kodeProdukTextboxController);
 }
