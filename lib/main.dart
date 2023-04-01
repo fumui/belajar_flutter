@@ -1,6 +1,7 @@
 import 'package:belajar_flutter/column_widget.dart';
 import 'package:belajar_flutter/row_widget.dart';
 import 'package:belajar_flutter/hello_world.dart';
+import 'package:belajar_flutter/ui/product_page.dart';
 import 'package:belajar_flutter/ui/produk_form.dart';
 import 'package:flutter/material.dart';
 
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: ProdukForm(),
+      home: ProdukPage(),
     );
   }
 }
